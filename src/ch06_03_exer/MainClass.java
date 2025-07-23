@@ -1,11 +1,13 @@
 package ch06_03_exer;
 
 public class MainClass {
-
+	
+	int a; // 인스턴스 멤버
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Circle circle = new Circle(10);
-		
+		//a = 10;
 		System.out.println("원의 면적:" + circle.circleArea());
 		
 		System.out.println("================================");

@@ -12,6 +12,14 @@ public class MainClass {
 		pri.println(3.14);
 		pri.println(true);
 		
+		boolean flag = false;
+		int intFlag = 0;
+		int val = 100;
+		
+		if(val > 50) {
+			flag = true;
+		} 
+		
 	}
 
 }
