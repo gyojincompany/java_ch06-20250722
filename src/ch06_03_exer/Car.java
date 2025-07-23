@@ -23,5 +23,19 @@ public class Car {
 		engine.printEngine();
 	}
 	
+	public Engine outputEngine() {
+		engine.type = "디젤";
+		engine.displacement = 2;
+		return engine;
+	}
+	
+	public String[] outputCars() {
+		String[] cars = {"소나타","아반떼","K5"};
+		
+		carEngineType();
+		
+		return cars; // 배열
+	}
+	
 	
 }
