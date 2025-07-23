@@ -44,6 +44,11 @@ public class MainClass {
 		movie.runtime = 150;
 		
 		System.out.println("긴 영화인가요? " + movie.isLongMovie());
+		
+		Movie movie2 = new Movie("판타스틱4", "SF", 110);
+		System.out.println("긴 영화인가요? " + movie2.isLongMovie());
+		
+		Movie movie3 = new Movie("어벤져스", 160);
 	}
 
 }

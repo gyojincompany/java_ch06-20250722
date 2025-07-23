@@ -24,7 +24,40 @@ public class Movie {
 	String genre;
 	int runtime;
 	
+//	public Movie() { // 기본 생성자
+//		
+//	}
+//	
+//	public Movie(String title, int runtime) { // 새로운 생성자 추가
+//		this.title = title;		
+//		this.runtime = runtime;
+//	}
+//	
+//	public Movie(String title, String genre, int runtime) { // 새로운 생성자 추가
+//		this.title = title;
+//		this.genre = genre;
+//		this.runtime = runtime;
+//	}
+	
+	public Movie() { // 기본생성자
+		
+	}
+	
+	public Movie(String title, int runtime) {	
+		this.title = title;
+		this.runtime = runtime;
+	}
+
+	public Movie(String title, String genre, int runtime) {	
+		this.title = title;
+		this.genre = genre;
+		this.runtime = runtime;
+	}
+
+
 	public boolean isLongMovie() {
 		return runtime >= 120;
 	}
+
+	
 }
