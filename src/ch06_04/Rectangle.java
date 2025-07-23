@@ -38,5 +38,13 @@ public class Rectangle {
 	public int rectArea(int width) {
 		return width * this.height;
 	}
+	
+//	public int rectArea(int w) { -> 바로 위 메소드와 동일한 메소드로 간주 에러 발생!
+//		return w * this.height;
+//	}
+	
+	public double rectArea(double width) {
+		return width * this.height;
+	}
 
 }
