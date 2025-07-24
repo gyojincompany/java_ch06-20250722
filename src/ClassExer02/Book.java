@@ -6,7 +6,7 @@ package ClassExer02;
 public class Book {
 	
 	String bookName;
-	int bookPrice;
+	static int bookPrice = 10000;
 	
 	public Book() {
 		super();

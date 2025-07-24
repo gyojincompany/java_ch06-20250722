@@ -4,8 +4,11 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Book book = new Book("쥬라기공원", 20000);
-		book.printInfo();
+//		Book book = new Book("쥬라기공원", 20000);
+//		book.printInfo();
+//		book.bookName = "서유기";
+		Book.bookPrice=20000;
+		System.out.println(Book.bookPrice);		
 		
 		System.out.println("=============================");
 		
@@ -33,6 +36,7 @@ public class MainClass {
 		Triangle triangle = new Triangle();
 		System.out.println(triangle.isValid(10, 5, 8));
 		
+		Triangle triangle2 = new Triangle();
 	}
 
 }
