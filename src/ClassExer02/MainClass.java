@@ -17,6 +17,22 @@ public class MainClass {
 		AverageCalculator avCalculator = new AverageCalculator();
 		int[] scores = {10,20,30,40,50};
 		avCalculator.getAverage(scores);
+		
+		System.out.println("=============================");
+		
+		BMI bmi = new BMI();
+		bmi.bmiCalculator(70.5, 180.3);
+		
+		System.out.println("=============================");
+		
+		Rectangle rectangle = new Rectangle(10.5, 20.4);
+		rectangle.recRound();
+		
+		System.out.println("=============================");
+		
+		Triangle triangle = new Triangle();
+		System.out.println(triangle.isValid(10, 5, 8));
+		
 	}
 
 }
