@@ -1,5 +1,8 @@
 package ch06_05;
 
+import ch06_01.*;
+
+
 public class SingletonMain {
 
 	public static void main(String[] args) {
@@ -21,6 +24,11 @@ public class SingletonMain {
 		
 		final int scr = 400; // 상수 400으로 고정
 //		scr = 1000; // scr이 final로 인해 값을 변경할 수 없는 변수가 되어 에러 발생!
+		
+		//Triangle
+		//Student
+//		School
+		
 	}
 
 }
